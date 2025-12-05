@@ -1,0 +1,80 @@
+[gd_scene load_steps=2 format=3 uid="uid://0v0kqk0ro3kd"]
+
+[ext_resource type="Script" uid="uid://efve1sxltkqb" path="res://addons/Motif/scripts/structs/arc.gd" id="1_0gy8f"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Arc" type="Node2D" parent="."]
+skew = -1.1798426
+script = ExtResource("1_0gy8f")
+color_scheme = 3
+min_width = 5.374
+allow_full_circles = false
+rings = Array[Dictionary]([{
+&"color": Color(1, 0, 0.43137255, 1),
+&"end_angle": 6.218762372884786,
+&"radius": 143.80747215230824,
+&"rotation": -548.9791756955611,
+"spin": -1.3396453049342654,
+&"start_angle": 0.6333961199966814,
+&"width": 6.412288949487794
+}, {
+&"color": Color(0.5137255, 0.21960784, 0.9254902, 1),
+&"end_angle": 3.8132017055197305,
+&"radius": 144.33343057909724,
+&"rotation": -411.4010923551131,
+"spin": -1.0083739062219972,
+&"start_angle": 0.129035059555722,
+&"width": 5.496791877050071
+}, {
+&"color": Color(0.5137255, 0.21960784, 0.9254902, 1),
+&"end_angle": 5.033906327909043,
+&"radius": 83.24791219700356,
+&"rotation": -493.94647974344764,
+"spin": -1.2061081584526114,
+&"start_angle": 0.552269790253311,
+&"width": 6.248495389691742
+}, {
+&"color": Color(1, 0, 0.43137255, 1),
+&"end_angle": 4.164944611878553,
+&"radius": 73.13786215591271,
+&"rotation": -587.5553321543633,
+"spin": -1.4223536486303023,
+&"start_angle": 0.09981007616587545,
+&"width": 6.171581375857413
+}, {
+&"color": Color(1, 0.74509805, 0.043137256, 1),
+&"end_angle": 5.971518830905071,
+&"radius": 112.38840096735215,
+&"rotation": -559.2978987940796,
+"spin": -1.3641351439620006,
+&"start_angle": 0.020687134271193054,
+&"width": 6.059909026773704
+}, {
+&"color": Color(0.9843137, 0.3372549, 0.02745098, 1),
+&"end_angle": 6.072953919695907,
+&"radius": 48.03837998980177,
+&"rotation": -749.5042583360039,
+"spin": -1.8131687282168243,
+&"start_angle": 1.6108862736675236,
+&"width": 6.496785624459435
+}, {
+&"color": Color(1, 0.74509805, 0.043137256, 1),
+&"end_angle": 6.223945886867232,
+&"radius": 100.38878401424711,
+&"rotation": 488.6197764035645,
+"spin": 1.1791040116940747,
+&"start_angle": 0.13723505189735036,
+&"width": 5.438578109324154
+}, {
+&"color": Color(0.22745098, 0.5254902, 1, 1),
+&"end_angle": 4.814653083434247,
+&"radius": 124.96379663257677,
+&"rotation": -1097.214656784007,
+"spin": -2.656797015526806,
+&"start_angle": 0.0332831473547914,
+&"width": 7.86596621791176
+}])
+metadata/_custom_type_script = "uid://efve1sxltkqb"
+
+[node name="Camera2D" type="Camera2D" parent="Arc"]
